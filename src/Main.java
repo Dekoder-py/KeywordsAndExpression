@@ -1,27 +1,15 @@
 public class Main {
-    public static void main(String[] args){
-//        double kilometres = (100 * 1.6090344);
-//
-//        int highScore = 50;
-//
-//        if (highScore > 25) {
-//            highScore = 1000 + highScore;
-//        }
-//
-//        int health = 100;
-//
-//        if ((health < 25) && (highScore > 1000)) {
-//            highScore = highScore - 1000;
-//        }
+    public static void main(String[] args) {
 
-        int myVariable = 50;
-        myVariable++;
-        myVariable--;
+        boolean gameOver = true;
+        int score = 5000;
+        int levelCompleted = 5;
+        int bonus = 100;
 
-        System.out.println("myVariable: " + myVariable);
-
-        if (myVariable == 0) {
-            System.out.println("It's now zero!");
+        if (score <= 5000) {
+            System.out.println("Your score was less than or eqaul to 5000");
+        } else {
+            System.out.println("Got here");
         }
     }
 }
