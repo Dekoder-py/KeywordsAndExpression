@@ -7,7 +7,6 @@ public class MainChallenge {
         int bonus = 100;
 
         calculateScore(gameOver, score, levelCompleted, bonus);
-
         calculateScore(true, 10_000, 8, 200);
 
     }
