@@ -12,5 +12,14 @@ public class MainChallenge {
             finalScore += (levelCompleted * bonus);
             System.out.println("Your final score was " + finalScore);
         }
+
+        score = 10_000;
+        levelCompleted = 8;
+        bonus = 200;
+
+        if (gameOver) {
+            finalScore += (levelCompleted * bonus);
+            System.out.println("Your new final score was " + finalScore);
+        }
     }
 }
