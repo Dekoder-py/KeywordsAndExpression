@@ -8,6 +8,8 @@ public class Main {
 
         if (score <= 5000) {
             System.out.println("Your score was less than or eqaul to 5000");
+        } else if (score == 6000) {
+            System.out.println("Your score was 6000");
         } else {
             System.out.println("Got here");
         }
