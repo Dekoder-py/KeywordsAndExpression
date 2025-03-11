@@ -6,8 +6,6 @@ public class MainChallenge {
         int levelCompleted = 5;
         int bonus = 100;
 
-        int finalScore = score;
-
         calculateScore(gameOver, score, levelCompleted, bonus);
 
         calculateScore(true, 10_000, 8, 200);
@@ -22,5 +20,6 @@ public class MainChallenge {
             finalScore += (levelCompleted * bonus);
             System.out.println("Your final score was " + finalScore);
         }
+
     }
 }
