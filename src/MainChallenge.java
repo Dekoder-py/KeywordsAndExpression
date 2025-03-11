@@ -10,12 +10,7 @@ public class MainChallenge {
 
         calculateScore(gameOver, score, levelCompleted, bonus);
 
-        score = 10_000;
-        levelCompleted = 8;
-        bonus = 200;
-        finalScore = score;
-
-        calculateScore(gameOver, score, levelCompleted, bonus);
+        calculateScore(true, 10_000, 8, 200);
 
     }
 
